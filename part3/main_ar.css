@@ -1,0 +1,176 @@
+body {
+    background-image: url("https://img.freepik.com/free-vector/abstract-decorative-circular-stripes-seamless-pattern-design_1035-25453.jpg");
+}
+
+.hone {
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-style: oblique;
+    position: absolute;
+    top: 0%;
+    right: 18%;
+}
+
+.htwo {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    color: rgb(76, 118, 255);
+    font-size: 40px;
+    font-style: oblique;
+    top: 1%;
+    right: 39%;
+}
+
+.geeks {
+    width: 650px;
+    height: 300px;
+    background: rgb(190, 179, 179);
+    position: absolute;
+    top: 16%;
+    right: 25%;
+    border-radius: 20px;
+}
+
+.geeks2 {
+    width: 650px;
+    height: 300px;
+    background: rgb(190, 179, 179);
+    position: absolute;
+    top: 80%;
+    right: 25%;
+    border-radius: 20px;
+    border-color: rgb(145, 40, 40);
+}
+
+.geeks3 {
+    width: 650px;
+    height: 300px;
+    background: rgb(190, 179, 179);
+    position: absolute;
+    top: 144%;
+    right: 25%;
+    border-radius: 20px;
+}
+
+.geeks::after,
+.geeks2::after,
+.geeks3::after {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    background: rgb(43, 42, 42);
+    width: 90%;
+    height: 4px;
+    right: 3%;
+    border-radius: 50%;
+}
+
+.center,
+.center2,
+.center3 {
+    width: 160px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.center {
+    top: 22%;
+    right: 25.5%;
+}
+
+.center2 {
+    top: 86%;
+    right: 25.5%;
+}
+
+.center3 {
+    top: 150%;
+    right: 25.5%;
+}
+
+.pt,
+.pt3,
+.pt4 {
+    position: absolute;
+    font-size: larger;
+    font-style: italic;
+    color: rgb(20, 23, 23);
+}
+
+.pt {
+    top: 51%;
+    right: 29%;
+}
+
+.pt3 {
+    top: 115%;
+    right: 29%;
+}
+
+.pt4 {
+    top: 179%;
+    right: 29%;
+}
+
+.pt2,
+.pt5,
+.pt6 {
+    width: 10cm;
+    font-size: larger;
+    font-style: italic;
+    color: rgb(20, 23, 23);
+}
+
+.pt2 {
+    direction: rtl;
+    position: absolute;
+    top: 20%;
+    right: 40%;
+}
+
+.pt5 {
+    direction: rtl;
+    position: absolute;
+    top: 84%;
+    right: 40%;
+}
+
+.pt6 {
+    direction: rtl;
+    width: 10cm;
+    position: absolute;
+    top: 148%;
+    right: 40%;
+}
+
+.localhtml {
+    position: absolute;
+    top: 208%;
+    right: 40%;
+    font-size: 40px;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+
+.link {
+    position: absolute;
+    top: 220%;
+    right: 40%;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+
+.flag {
+    position: absolute;
+    top: 2%;
+    right: 4%;
+    width: 70px;
+    height: 70px;
+}

@@ -1,0 +1,22 @@
+img{
+    
+    border: solid;
+    cursor: pointer;
+    box-shadow: inset;
+}
+p{
+    color:rgb(255, 255, 255);
+}
+body{
+    color:magenta;
+    text-align: center;
+    background-color: aqua;
+}
+.n{
+    background-color: brown;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: medium;
+}
